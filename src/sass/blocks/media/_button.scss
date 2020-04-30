@@ -1,0 +1,22 @@
+@media (max-width: 991px) {
+    .button {
+        width: 130px;
+        height: 45px;
+        font-size: 16px;
+        &_size {
+            &_large {
+                width: 230px;
+                height: 70px;
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .button {
+        width: 154px;
+        height: 55px;
+        font-size: 18px;
+    }
+}

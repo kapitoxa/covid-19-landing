@@ -1,0 +1,10 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    .row {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+}

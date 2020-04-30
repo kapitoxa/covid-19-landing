@@ -1,0 +1,97 @@
+@media (max-width: 991px) {
+    .navigation {
+        &__item {
+            margin-left: 25px;
+        }
+        &__link {
+            margin-top: 16px;
+            font-size: 16px;
+        }
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .navigation {
+        &__toggle {
+            display: block;
+            margin-top: 22px;
+            position: relative;
+            z-index: 1;
+            cursor: pointer;
+            span {
+                display: block;
+                position: relative;
+                width: 33px;
+                height: 4px;
+                margin-bottom: 5px;
+                background-color: #fb4c47;
+                border-radius: 3px;
+                transform-origin: 4px 0px;
+                transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                            opacity 0.55s ease;
+                &:first-child {
+                    transform-origin: 0% 0%;
+                }
+                &:nth-last-child(2) {
+                    transform-origin: 0% 100%;
+                }
+            }
+            &_active {
+                span {
+                    opacity: 1;
+                    transform: rotate(45deg) translate(0px, -2px);
+                    &:nth-last-child(2) {
+                        opacity: 0;
+                        transform: rotate(0deg) scale(0.2, 0.2);
+                    }
+                    &:nth-last-child(1) {
+                        transform: rotate(-45deg) translate(-2px, -1px);
+                    }
+                }
+            }
+        }
+        &__menu {
+            padding: 100px 40px 50px 40px;
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 60%;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: rgba($color: #fffcf6, $alpha: 0.95);
+            transition: all 0.55s cubic-bezier(0.77,0.2,0.05,1.0);
+            &_active {
+                right: 0;
+            }
+        }
+        &__item {
+            margin-top: 15px;
+            margin-left: 0;
+        }
+        &__link {
+            margin-top: 0;
+            padding: 20px 25px;
+            font-size: 18px;
+            &_active {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 757px) {
+    .navigation {
+        &__toggle {
+            margin-top: 18px;
+        }
+        &__menu {
+            width: 100%;
+        }
+    }
+}

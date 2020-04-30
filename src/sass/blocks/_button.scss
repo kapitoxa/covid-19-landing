@@ -1,0 +1,27 @@
+.button {
+    padding: 0;
+    width: 154px;
+    height: 55px;
+    border-radius: 46px;
+    border: solid 2px #fb4c47;
+    background-color: transparent;
+    font-size: 18px;
+    color: #ff383d;
+    &_size {
+        &_large {
+            width: 250px;
+            height: 80px;
+            border-radius: 65px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+    &_color {
+        &_main {
+            box-shadow: 0 8px 87px rgba(0, 0, 0, 0.1);
+            border: none;
+            background-color: #fb4c47;
+            color: #ffffff;
+        }
+    }
+}
