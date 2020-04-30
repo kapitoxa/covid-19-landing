@@ -10,6 +10,7 @@
     .header {
         &__title {
             width: 620px;
+            font-size: 50px;
         }
         &__descr {
             width: 520px;
@@ -24,9 +25,12 @@
         }
         &__title {
             width: 575px;
+            font-size: 48px;
+            line-height: 70px;
         }
         &__descr {
             width: 440px;
+            font-size: 23px;
         }
     }
 }
@@ -61,8 +65,14 @@
         &__label {
             margin-top: 230px;
         }
+        &__title {
+            font-size: 41px;
+            line-height: 68px;
+        }
         &__descr {
             width: 100%;
+            font-size: 20px;
+            line-height: 40px;
         }
     }
 }

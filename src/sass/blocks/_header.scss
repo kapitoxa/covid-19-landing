@@ -12,14 +12,29 @@
     }
     &__label {
         margin-top: 315px;
+        font-family: "Red Hat Display";
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #fa5652;
     }
     &__title {
         margin-top: 35px;
         width: 660px;
+        font-family: "Red Hat Display";
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #035755;
+        text-transform: capitalize;
     }
     &__descr {
         margin-top: 29px;
         width: 660px;
+        font-size: 24px;
+        line-height: 45px;
+        color: #4b4f51;
+        text-transform: capitalize;
     }
     &__button {
         margin-top: 54px;
