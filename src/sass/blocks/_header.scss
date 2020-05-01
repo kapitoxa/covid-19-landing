@@ -1,9 +1,12 @@
 .header {
     padding-top: 31px;
-    padding-bottom: 155px;
-    min-height: 1061px;
-    background: #fff8f8 url("../img/header-bg.svg") center (center/cover) no-repeat;
+    padding-bottom: 105px;
+    min-height: 987px;
+    background: url("../img/header-bg.svg"), 
+        linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff8f8 100%, #b57474 100%)
+        center center no-repeat;
     &__logo {
+        margin-left: 16px;
         display: block;
         width: 192px;
         img {
@@ -18,8 +21,11 @@
         line-height: 39px;
         color: #fa5652;
     }
+    &__wrapper {
+        padding-left: 21px;
+    }
     &__title {
-        margin-top: 35px;
+        margin-top: 10px;
         width: 660px;
         font-family: "Red Hat Display";
         font-size: 52px;
@@ -29,7 +35,7 @@
         text-transform: capitalize;
     }
     &__descr {
-        margin-top: 29px;
+        margin-top: 35px;
         width: 660px;
         font-size: 24px;
         line-height: 45px;
@@ -37,6 +43,6 @@
         text-transform: capitalize;
     }
     &__button {
-        margin-top: 54px;
+        margin-top: 46px;
     }
 }
