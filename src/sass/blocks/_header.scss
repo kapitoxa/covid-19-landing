@@ -2,9 +2,8 @@
     padding-top: 31px;
     padding-bottom: 105px;
     min-height: 965px;
-    background: url("../img/header-bg.svg"), 
-        linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff8f8 100%, #b57474 100%)
-        center center no-repeat;
+    background: url("../img/header-bg.svg") center center no-repeat, 
+        linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff8f8 100%, #b57474 100%);
     &__logo {
         margin-left: 16px;
         display: block;
