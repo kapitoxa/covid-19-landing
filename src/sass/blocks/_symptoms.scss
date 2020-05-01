@@ -1,0 +1,24 @@
+.symptoms {
+    padding-top: 45px;
+    min-height: 1144px;
+    background: url('../img/symptoms-bg.svg') center center no-repeat;
+    &__label {
+        text-align: center;
+    }
+    &__title {
+        margin-top: 12px;
+        text-align: center;
+    }
+    &__descr {
+        margin: 0 auto;
+        margin-top: 34px;
+        width: 835px;
+        text-align: center;
+    }
+    &__picture {
+        margin: 0 auto;
+        margin-top: 42px;
+        display: block;
+        width: 1168px;
+    }
+}

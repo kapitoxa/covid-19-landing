@@ -1,12 +1,12 @@
 .contagion {
     position: relative;
+    min-height: 944px;
     &__wrapper {
         padding-bottom: 104px;
         position: absolute;
         top: -55px;
         left: 50%;
         width: 100%;
-        min-height: 952px;
         transform: translateX(-50%);
         background: url('../img/contagion-bg.svg') center center no-repeat;
     }
