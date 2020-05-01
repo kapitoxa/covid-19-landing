@@ -1,0 +1,17 @@
+.overview {
+    padding: 203px 0 222px 0;
+    min-height: 886px;
+    background: #fff8f8 url('../img/overview-bg.svg') center (center/cover) no-repeat;
+    &__wrapper {
+        margin-left: 790px;
+    }
+    &__title {
+        margin-top: 18px;
+    }
+    &__descr {
+        margin-top: 18px;
+    }
+    &__button {
+        margin-top: 50px;
+    }
+}

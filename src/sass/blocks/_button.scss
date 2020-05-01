@@ -8,6 +8,13 @@
     font-size: 18px;
     color: #ff383d;
     &_size {
+        &_medium {
+            width: 200px;
+            height: 65px;
+            border-radius: 65px;
+            font-size: 20px;
+            font-weight: 700;
+        }
         &_large {
             width: 250px;
             height: 80px;
@@ -22,6 +29,11 @@
             border: none;
             background-color: #fb4c47;
             color: #ffffff;
+        }
+        &_light {
+            background-color: rgba(250, 86, 82, 0.15);
+            border: none;
+            color: #fa5652;
         }
     }
 }
