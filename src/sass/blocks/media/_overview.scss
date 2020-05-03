@@ -28,6 +28,9 @@
         &__wrapper {
             margin-left: 150px;
         }
+        &__text {
+            line-height: 40px;
+        }
     }
 }
 
@@ -36,6 +39,10 @@
         background: none;
         &__wrapper {
             margin-left: 0;
+        }
+        &__text {
+            font-size: 19px;
+            line-height: 37px;
         }
     }
 }
