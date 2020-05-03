@@ -9,7 +9,7 @@
 @media (max-width: 1199px) {
     .header {
         &__title {
-            width: 620px;
+            width: 600px;
             font-size: 50px;
         }
         &__descr {
@@ -29,7 +29,7 @@
             line-height: 70px;
         }
         &__descr {
-            width: 440px;
+            width: 412px;
             font-size: 23px;
         }
     }
@@ -37,12 +37,11 @@
 
 @media (max-width: 767px) {
     .header {
-        min-height: 1276px;
         &__logo {
             width: 192px;
         }
         &__label {
-            margin-top: 410px;
+            margin-top: 450px;
         }
         &__title {
             width: 100%;
@@ -57,22 +56,23 @@
 
 @media (max-width: 575px) {
     .header {
-        min-height: 1120px;
-        background: #fff8f8;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff8f8 100%, #b57474 100%);
         &__logo {
             width: 170px;
         }
         &__label {
             margin-top: 230px;
+            font-size: 30px;
         }
         &__title {
-            font-size: 41px;
-            line-height: 68px;
+            margin-top: 18px;
+            font-size: 38px;
+            line-height: 55px;
         }
         &__descr {
             width: 100%;
             font-size: 20px;
-            line-height: 40px;
+            line-height: 35px;
         }
     }
 }
