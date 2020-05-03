@@ -20,7 +20,11 @@
 
 @media (max-width: 991px) {
     .header {
+        &__wrapper {
+            padding-left: 0;
+        }
         &__logo {
+            margin-left: 0;
             width: 150px;
         }
         &__title {
