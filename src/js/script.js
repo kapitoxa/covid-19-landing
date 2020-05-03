@@ -10,4 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     hamburger.addEventListener('click', toggleNavigation);
     menuItems.forEach(item => item.addEventListener('click', toggleNavigation));
+
+    const form = document.querySelector('.contacts__form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const input = form.querySelector('input');
+        input.value = '';
+    });
 });
