@@ -1,19 +1,12 @@
-// @media (max-width: 1192px) {
-//     .title {
-//         font-size: 50px;
-//     }
-// }
+@media (max-width: 767px) {
+    .title {
+        font-size: 48px;
+    }
+}
 
-// @media (max-width: 991px) {
-//     .title {
-//         font-size: 48px;
-//         line-height: 70px;
-//     }
-// }
-
-// @media (max-width: 575px) {
-//     .title {
-//         font-size: 43px;
-//         line-height: 68px;
-//     }
-// }
+@media (max-width: 575px) {
+    .title {
+        font-size: 43px;
+        line-height: 55px;
+    }
+}

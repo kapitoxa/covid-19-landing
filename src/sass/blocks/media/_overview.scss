@@ -1,7 +1,41 @@
 @media (max-width: 1519px) {
     .overview {
         &__wrapper {
-            margin-left: 590px;
+            margin-left: 585px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .overview {
+        &__wrapper {
+            margin-left: 450px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .overview {
+        padding-top: 175px;
+        &__wrapper {
+            margin-left: 260px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .overview {
+        &__wrapper {
+            margin-left: 150px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .overview {
+        background: none;
+        &__wrapper {
+            margin-left: 0;
         }
     }
 }

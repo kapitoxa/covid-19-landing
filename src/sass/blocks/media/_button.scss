@@ -4,6 +4,11 @@
         height: 45px;
         font-size: 16px;
         &_size {
+            &_medium {
+                width: 200px;
+                height: 65px;
+                font-size: 20px;
+            }
             &_large {
                 width: 230px;
                 height: 70px;
@@ -18,5 +23,17 @@
         width: 154px;
         height: 55px;
         font-size: 18px;
+        &_size {
+            &_medium {
+                width: 175px;
+                height: 60px;
+                font-size: 19px;
+            }
+            &_large {
+                width: 215px;
+                height: 65px;
+                font-size: 22px;
+            }
+        }
     }
 }
