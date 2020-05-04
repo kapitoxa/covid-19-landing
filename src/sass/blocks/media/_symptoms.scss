@@ -1,0 +1,34 @@
+@media (max-width: 1519px) {
+    .symptoms {
+        &__picture {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .symptoms {
+        min-height: 945px;
+    }
+}
+
+@media (max-width: 991px) {
+    .symptoms {
+        min-height: 825px;
+        &__descr {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .symptoms {
+        min-height: 735px;
+    }
+}
+
+@media (max-width: 575px) {
+    .symptoms {
+        min-height: 600px;
+    }
+}
