@@ -3,8 +3,12 @@
     min-height: 760px;
     &__wrapper {
         position: relative;
+        flex-grow: 1;
         display: flex;
         align-items: center;
+    }
+    &__live-reports {
+        margin-left: 36px;
     }
     &__control {
         &_left {
@@ -21,6 +25,6 @@
     &__picture {
         margin-top: 32px;
         bottom: 0;
-        width: 920px;
+        max-width: 100%;
     }
 }
