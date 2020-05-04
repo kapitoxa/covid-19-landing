@@ -1,7 +1,7 @@
 @media (max-width: 1519px) {
     .symptoms {
         &__picture {
-            width: 100%;
+            width: 90%;
         }
     }
 }
@@ -9,6 +9,9 @@
 @media (max-width: 1199px) {
     .symptoms {
         min-height: 945px;
+        &__picture {
+            width: 95%;
+        }
     }
 }
 
@@ -16,6 +19,9 @@
     .symptoms {
         min-height: 825px;
         &__descr {
+            width: 100%;
+        }
+        &__picture {
             width: 100%;
         }
     }
