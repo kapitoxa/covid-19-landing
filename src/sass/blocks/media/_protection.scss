@@ -1,0 +1,94 @@
+@media (max-width: 1519px) {
+    .protection {
+        min-height: 2210px;
+        &-item {
+            &__text {
+                padding-left: 90px;
+                width: 60%;
+            }
+            &__step {
+                width: 65px;
+                height: 65px;
+                font-size: 40px;
+            }
+            &__title {
+                font-size: 38px;
+                line-height: 55px;
+            }
+            &__picture-wrapper {
+                padding: 20px;
+                width: 40%;
+            }
+            &__picture {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .protection {
+        &-item {
+            margin-top: 25px;
+            flex-direction: column-reverse;
+            &:nth-child(even) {
+                flex-direction: column-reverse;
+            }
+            &__text {
+                margin-top: 10px;
+                width: 75%;
+            }
+            &__descr {
+                margin-top: 15px;
+                width: 100%;
+            }
+            &__picture-wrapper {
+                width: 370px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .protection {
+        &__descr {
+            width: 100%;
+        }
+        &-item {
+            &__text {
+                width: 100%;
+            }
+            &__picture-wrapper {
+                width: 360px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .protection {
+        &-item {
+            &__text {
+                padding-left: 60px;
+            }
+            &__step {
+                width: 50px;
+                height: 50px;
+                font-size: 30px;
+            }
+            &__title {
+                margin-top: 7px;
+                font-size: 31px;
+                line-height: 41px;
+            }
+            &__descr {
+                margin-top: 10px;
+                font-size: 17px;
+                line-height: 36px;
+            }
+            &__picture-wrapper {
+                width: 270px;
+            }
+        }
+    }
+}

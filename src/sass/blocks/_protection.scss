@@ -27,12 +27,12 @@
         &__text {
             position: relative;
             width: 50%;
-            margin-left: 115px;
+            padding-left: 115px;
         }
         &__step {
             position: absolute;
             top: 0;
-            left: -115px;
+            left: 0;
             display: flex;
             justify-content: center;
             align-items: center;
