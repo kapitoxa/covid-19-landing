@@ -8,11 +8,18 @@
     font-size: 18px;
     color: #ff383d;
     &_size {
-        &_medium {
+        &_small {
             width: 200px;
             height: 65px;
             border-radius: 65px;
             font-size: 20px;
+            font-weight: 700;
+        }
+        &_medium {
+            width: 209px;
+            height: 78px;
+            border-radius: 157px;
+            font-size: 22px;
             font-weight: 700;
         }
         &_large {

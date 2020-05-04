@@ -4,10 +4,15 @@
         height: 45px;
         font-size: 16px;
         &_size {
-            &_medium {
+            &_small {
                 width: 200px;
                 height: 65px;
                 font-size: 20px;
+            }
+            &_medium {
+                width: 200px;
+                height: 70px;
+                font-size: 22px;
             }
             &_large {
                 width: 230px;
@@ -24,15 +29,43 @@
         height: 55px;
         font-size: 18px;
         &_size {
-            &_medium {
+            &_small {
                 width: 175px;
                 height: 60px;
+                font-size: 19px;
+            }
+            &_medium {
+                width: 175px;
+                height: 62px;
                 font-size: 19px;
             }
             &_large {
                 width: 215px;
                 height: 65px;
                 font-size: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        &_size {
+            &_small {
+                width: 165px;
+                height: 60px;
+                font-size: 18px;
+            }
+            &_medium {
+                width: 70px;
+                height: 48px;
+                border-radius: 25px;
+                font-size: 15px;
+            }
+            &_large {
+                width: 200px;
+                height: 65px;
+                font-size: 20px;
             }
         }
     }
